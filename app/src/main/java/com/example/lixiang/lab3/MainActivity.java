@@ -211,7 +211,7 @@ public class MainActivity extends AppCompatActivity {
     }
     @Override
     protected void onNewIntent(Intent intent){
-        ll.setVisibility(View.VISIBLE);
+        //ll.setVisibility(View.VISIBLE);
         super.onNewIntent(intent);
         Bundle extras = intent.getExtras();
         if(extras != null) {
